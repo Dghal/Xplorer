@@ -1,0 +1,64 @@
+.heading {
+    width: 100%;
+    height: 270rpx;
+    background-color: black;
+    align-items: center;
+    margin-bottom: 10rpx;
+}
+
+.title {
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5%;
+    margin-bottom: 0;
+    padding-top: 5%;
+}
+
+.heading .welcome {
+    padding-left: 5%;
+    color: white;
+    font-size: normal;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tab {
+    margin-top: 45rpx;
+    width: 100%;
+    height: 150rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    border-top: 2rpx black;
+    border-bottom: 2rpx black;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    box-shadow: 4rpx 5rpx 16rpx 4rpx rgb(83, 82, 82);
+}
+
+.tab .background_image {
+    width:100%;
+    height: 150rpx;
+    position: absolute
+}
+
+.tab .txt {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 15rpx;
+    padding-left: 5%;
+}
+
+.tab .difficulty {
+    position: absolute;
+    color:white;
+    font-size: small;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 15rpx;
+    right: 6%;
+}

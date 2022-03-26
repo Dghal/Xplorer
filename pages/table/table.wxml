@@ -1,0 +1,47 @@
+<!--additional info-->
+<view wx:if="{{infoLoaded}}">
+    <view class="div">
+        <text class="txt">Table owner</text>
+    </view>
+    <view class="addinfo">
+        <view class="heading">
+            <view class="author_avatar">
+                <image class="avatar" src="{{author_avatar}}"></image>
+            </view>
+
+            <view class="author_username">
+                <text class="txt">{{author_name}}</text>
+            </view>
+        </view>
+
+        <view class="body">
+            <text class="txt">{{additional_content}}</text>
+        </view>
+
+        <view class="footer">
+            <text class="txt">{{publish_time}}</text>
+        </view>
+    </view>
+
+    <view class="div">
+        <text class="txt">On table</text>
+    </view>
+
+    <view class="ontable" wx:for="{{contact_list}}" wx:key="key">
+        <view class="tableuser">
+            <view class="header">
+                <view class="user_avatar">
+                    <image class="tableuser_avatar" src="{{item.user_avatar}}"></image>
+                </view>
+
+                <view class="username">
+                    <text class="txt">{{item.username}}</text>
+                </view>
+            </view>
+
+            <view class="body">
+                <text class="txt">{{item.contact}}</text>
+            </view>
+        </view>
+    </view>
+</view>

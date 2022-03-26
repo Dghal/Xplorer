@@ -1,0 +1,8 @@
+<view class="container">
+    <text class="statement">Need your word \n before we go...</text>
+    <view class="btn-area" id="buttonContainer">
+        <button class="authorize" bindtap="login">Authorize</button>
+    </view>
+    <text class="xg">XGravity HKU Outdoors Club, 2022. All rights reserved.</text>
+</view>
+

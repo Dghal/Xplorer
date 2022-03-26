@@ -1,0 +1,110 @@
+/* pages/my/my.wxss */
+page {
+    background-color: rgb(236, 232, 232);
+    overflow: hidden;
+}
+
+.main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.user-info {
+    width: 100%;
+    height: 280rpx;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 32rpx;
+    margin-bottom: 20rpx;
+    background-color: black;
+}
+
+.user-info .avatar {
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+    background: lightgray;
+}
+
+.user-info .info {
+    flex: 1;
+    height: 85rpx;
+    padding-left: 30rpx;
+}
+
+.user-info .name {
+    display: inline-block;
+    font-size: 38rpx;
+    font-weight: bold;
+    color: white;
+}
+
+.messages {
+    height: 240rpx;
+    width: 100%;
+    background: white;
+    margin-bottom: 20rpx;
+}
+
+.messages-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90rpx;
+    padding: 0 30rpx;
+}
+
+.messages-header .txt {
+    font-size: 32rpx;
+    font-weight: 500;
+    color:black;
+}
+
+.messages-tab {
+    height: 150rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.messages-tab .tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120rpx;
+}
+
+.tab .icon {
+    width: 48rpx;
+    height: 48rpx;
+    margin-bottom: 10rpx;
+}
+
+.tab .txt {
+    font-size: 25rpx;
+    color: #666;
+}
+
+.more {
+    height: 100rpx;
+    width: 100%;
+    background-color: white;
+}
+
+.more_field {
+    padding-top: 22rpx;
+}
+
+.more .txt {
+    font-size: 32rpx;
+    font-weight: 500;
+    color:black;
+    padding-left: 4%;
+}
+
+#table {
+    width: 50rpx;
+    height: 50rpx;
+}

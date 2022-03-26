@@ -1,0 +1,23 @@
+<!--pages/tavern/tavern.wxml-->
+<view class="tavern-header">
+    <view class="tab">
+        <text class="header">Tavern</text>
+        <image class="icon" src="../images/Tavern_header.png"></image>
+    </view>
+    <text class="txt">Sporties' gathering.</text>
+</view>
+
+<block wx:for="{{postlist}}" wx:key="key">
+    <view class="post_list" bindtap="onItemClick" data-postid='{{item._id}}'>
+        <view class="table">
+            <view class="header">
+                <text class="username">{{item.author_name}}</text>
+                <text class="suffix">'s table</text>
+            </view>
+
+            <view class="content">
+                <text>{{item.content}}</text>
+            </view>
+        </view>
+    </view>
+</block>

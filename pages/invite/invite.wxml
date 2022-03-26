@@ -1,0 +1,25 @@
+<!--pages/invite/invite.wxml-->
+<view class="post-header">
+    <view class="tab">
+        <text class="header">Post</text>
+        <image class="icon" src="../images/Post_header.png"></image>
+    </view>
+    <text class="txt">Spread the word.</text>
+</view>
+
+<view class="post">
+    <view class="post_header">
+        <text class="post_guide" bindtap="post_guide_portal">READ ME</text>
+    </view>
+
+    <view class="post_field">
+        <textarea placeholder="Say something..."  placeholder-style="color: lightgray" cols="30" rows="10" maxlength="180" cursor-spacing="20" bindinput="getInputValue" class="post_input"></textarea>
+        <view class="word-count">{{word_left}}/180</view>
+    </view>
+
+    <view class="additional_info_post_field">
+        <textarea placeholder="Addtional information" placeholder-style="color: lightgray" maxlength="50" class="additional_info_input" bindinput="getaddInputValue" cols="30" rows="10"></textarea>
+    </view>
+
+    <view class="post_button" bindtap="publish">Buy the round</view>
+</view>

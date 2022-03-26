@@ -1,0 +1,22 @@
+<!--Messenger/pages/posted.wxml-->
+<view class="posted-header">
+    <view class="tab">
+        <text class="header">Your posts.</text>
+    </view>
+</view>
+
+<block wx:for="{{postedlist}}" wx:key="key">
+    <view class="posted_list" bindtap="onItemClick" data-postid='{{item._id}}'>
+        <view class="table">
+            <view class="header">
+                <text class="username">{{item.author_name}}</text>
+                <text class="suffix">'s table</text>
+            </view>
+
+            <view class="content">
+                <text>{{item.content}}</text>
+            </view>
+        </view>
+    </view>
+</block>
+

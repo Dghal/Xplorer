@@ -1,0 +1,52 @@
+<view class="background">
+    <view class="heading">
+        <view class="title">
+            <text>Hiking</text>
+        </view>
+        <view class="welcome">
+            <text>
+                You must ascend a mountain \n to learn your relation to matter.
+            </text>
+        </view>
+    </view>
+
+    <view class="tab">
+        <image class="background_image" src="cloud://cloud-1-1gb5xxxp9f134365.636c-cloud-1-1gb5xxxp9f134365-1309380633/hiking/hiking_navi_pic/sunset_peak.png"></image>
+        <view class="txt">
+            <text>Sunset Peak</text>
+        </view>
+        <view class="difficulty">
+            <text>Intermediate</text>
+        </view>
+    </view>
+
+    <view class="tab">
+        <image class="background_image" src="cloud://cloud-1-1gb5xxxp9f134365.636c-cloud-1-1gb5xxxp9f134365-1309380633/hiking/hiking_navi_pic/lantau_peak.png"></image>
+        <view class="txt">
+            <text>Lantau Peak</text>
+        </view>
+        <view class="difficulty">
+            <text>Intermediate</text>
+        </view>
+    </view>
+
+    <view class="tab">
+        <image class="background_image" src="cloud://cloud-1-1gb5xxxp9f134365.636c-cloud-1-1gb5xxxp9f134365-1309380633/hiking/hiking_navi_pic/west_dogs_teeth.png"></image>
+        <view class="txt">
+            <text>West Dog's Teeth</text>
+        </view>
+        <view class="difficulty">
+            <text>Demanding</text>
+        </view>
+    </view>
+
+    <view class="tab">
+        <image class="background_image" src="cloud://cloud-1-1gb5xxxp9f134365.636c-cloud-1-1gb5xxxp9f134365-1309380633/hiking/hiking_navi_pic/victoria_peak.png"></image>
+        <view class="txt">
+            <text>Victoria Peak</text>
+        </view>
+        <view class="difficulty">
+            <text>Chill</text>
+        </view>
+    </view>
+</view>

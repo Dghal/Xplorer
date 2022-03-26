@@ -1,0 +1,83 @@
+/* pages/post_comment/post_comment.wxss */
+page {
+    background-color: rgb(240, 236, 236);
+}
+
+.post_area {
+    width: 92%;
+    height: 350rpx;
+    margin-left: 4%;
+    margin-top: 45rpx;
+    background-color: white;
+    border: 0;
+    border-style: solid;
+    border-radius: 3%;
+    box-shadow: 4rpx 4rpx 10rpx 4rpx rgb(163, 163, 163);
+}
+
+.post_area .post_field  {
+    width: 90%;
+    height: 250rpx;
+    padding-left: 20rpx;
+    padding-top: 20rpx;
+}
+
+.send {
+    width: 150rpx;
+    height: 56rpx;
+    margin-top: 25rpx;
+    margin-right: 20rpx;
+    margin-left: 75%;
+    text-align: center;
+    background-color: black;
+    border: 0;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+.send .txt {
+    padding-top: 4rpx;
+    color: white;
+    font-weight: bold;
+}
+
+.guide {
+    position: fixed;
+    bottom: 14%;
+    width: 90%;
+    height: auto;
+    background-color: rgb(240, 236, 236);
+}
+
+.guide .h1 {
+    padding-left: 65rpx;
+    margin-top: 15rpx;
+    margin-bottom: 10rpx;
+    color: rgb(170, 168, 168);
+    font-size: small;
+    font-weight: bold;
+}
+
+.guide .p1 {
+    padding-left: 65rpx;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+    color: rgb(197, 195, 195);
+    font-size: x-small;
+}
+
+.enroll {
+    width: 85%;
+    height: 80rpx;
+    position: fixed;
+    bottom: 8%;
+    line-height: 80rpx;
+    margin-left: 8%;
+    margin-right: 7%;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 30rpx;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

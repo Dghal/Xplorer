@@ -1,0 +1,59 @@
+<!-- Post detail -->
+<view class="postdetail" wx:if='{{contentLoaded && starLoaded}}'>
+    <view class="heading">
+        <view>
+            <image class="user_avatar" src='{{detail.author_avatar}}'></image>
+        </view>
+
+        <view class="username">
+            <text class="txt">{{detail.author_name}}</text>
+        </view>
+    </view>
+
+    <view class="content">
+        <text class="txt">{{detail.content}}</text>
+    </view>
+
+    <view class="footer">
+        <view class="star" catchtap="onCollectionTap">
+            <image class="star_icon" src='{{star}}'></image>
+        </view>
+
+        <view class="date">
+            <text class="txt">First glass of {{drink}} served at {{detail.publish_time}}</text>
+        </view>
+    </view>
+</view>
+
+<!-- Comments -->
+
+<view class="comments" wx:if="{{commentLoaded}}">
+    <view class="div">
+        <text class="txt">Comments</text>
+    </view>
+    <view class="comment_list" wx:for="{{comments}}" wx:key="key">
+        <view class="comment_item">
+            <view class="header">
+                <view class="username">
+                    <text class="txt">{{item.name}}</text>
+                </view>
+
+                <view class="publish_time">
+                    <text class="txt">{{item.time}}</text>
+                </view>
+            </view>
+
+            <view class="body">
+                <view class="comment_content">
+                    <text class="txt">{{item.content}}</text>
+                </view>
+            </view>
+
+        </view>
+    </view>
+
+    <!-- Post comments portal -->
+    <view class="send_comment">
+        <view class="send_comment_area" bindtap="post_comment_portal">Leave comments</view>
+    </view>
+</view>

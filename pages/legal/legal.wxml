@@ -1,0 +1,57 @@
+<view class="background">
+    <view class="privacy">
+        <text class="h1">
+            Privacy Policies
+        </text>
+        <text class="p1">
+            We value your shared information and our trust upon that. We hereby proclaim that all information collected will be used for registration and platform operation purposes ONLY, unless specified. By registering an account at Xplorer, you agree to the following terms:
+        </text>
+        <text class="p2">
+            1. XGravity HKU Outdoors Club has the right to collect and use your shared information, including but are not limited to your posts, profile information, and location services.
+        </text>
+        <text class="p2">
+            2. Your created guides, direct messages, or any other originations on Xplorer will be stored and processed by our server. These contents are inevitably accessible to XGravity while we maintain the operation of our databases and server. Thus, you agree that XGravity has the right to process and read your created contents.
+        </text>
+        <text class="p2">
+            3. Whoever you communicated with on Xplorer are accessible to XGravity during the platform's operation. You allow XGravity to have access to your contacts on Xplorer.
+        </text>
+        <text class="p2">
+            4. We acquire your information when you use Xplorer, regardless of your registration status. These data include but are not limited to Wechat openid, IP address, profile photo, Wechat nickname, which we refer to as Log Data. You agree that XGravity has the right to collect and use your Log Data.
+        </text>
+        <text class="p2">
+            5. XGravity generates revenue through advertising services in order to keep the continual operation of Xplorer and the club in the long term. We may use your shared information to help us optimize our advertisements. You agree that XGravity has the right to share advertising contents with you while using our services, and use your information to improve our advertising contents.
+        </text>
+        <text class="p2">
+            6. XGravity may acquire your information from third parties to help us ensure the safety and quality of contents on our platform.
+        </text>
+        <text class="p2">
+            7. The privacy policies may be revised from time to time. You will be notified if any changes were made to the document. The right of interpretation of the Privacy Policies belongs to XGravity HKU Outdoors Club exclusively.
+        </text>
+    </view>
+    <text class="separation"></text>
+    <view class="agreements">
+        <text class="h1">
+            User Agreements
+        </text>
+        <text class="p1">
+            User experience is our first concern. XGravity aims to create a community of aspiring adventurers with self-respect and of dignity, who show respect to other community members and are responsible for their own actions. Thus, as part of this society, you agree to adhere to the following terms while using our services:
+        </text>
+        <text class="p2">
+            1. You will not deliberately attack, assult, or smear other users on our platform in any form or by any means.
+        </text>
+        <text class="p2">
+            2. You will be responsible and solely responsible for your contents posted on the platform. You shall not use Xplorer to publicize any improper contents on national security, politics, ethnicity, gender, cultural tradition, etc.
+        </text>
+        <text class="p2">
+            3. Contents on Xplorer are for your reference ONLY. XGravity is not responsible for the content posted on the platform. The user shall take all responsibilities should any incident happen, such as physical injuries. Additionally, Xplorer's Tavern function provides social platforms for users to exchange their ideas, thoughts or plans on outdoor activities. However, user's social-interactions on Xplorer is independent from XGravity and its members. XGravity will not be responsible for any possible outcomes of user's social-interactions.
+        </text>
+        <text class="p2">
+            4. Any violation to the above terms will be considered as the breach of this agreement, in which case XGravity has the right to take any necessary actions including but are not limited to: deleting the user's post contents, suspending the user's account, and in worst scenario, deleting the user's account and all its information. XGravity has the exclusive right to interpret the User Agreements.
+        </text>
+        <text class="separation"></text>
+        <text class="xg">
+        XGravity HKU Outdoors Club, 2022. All rights reserved.
+        </text>
+    </view>
+
+</view>
