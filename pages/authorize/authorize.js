@@ -11,7 +11,7 @@ Page({
 
     login() {
         var that = this;
-        var generate_avatar = ('cloud://cloud-1-1gb5xxxp9f134365.636c-cloud-1-1gb5xxxp9f134365-1309380633/avatar/avatar_' + String(Math.round(Math.random() * 12 + 1)) + '.png')
+        var generate_avatar = ('//images path' + String(Math.round(Math.random() * 12 + 1)) + '.png')
         wx.getUserProfile({
             desc: '获取用户信息',
             success(res) {
