@@ -17,7 +17,7 @@ Page({
         wx.showLoading({
             title:"Mopping tables"
         })
-        wx.cloud.init({env:'cloud-1-1gb5xxxp9f134365'})
+        wx.cloud.init({env:'xxxxxxxxx'})
         wx.cloud.callFunction({
             name: 'get_post_list',
             success: function(res) {
