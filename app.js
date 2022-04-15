@@ -14,7 +14,7 @@ App({
   onLaunch() {
 
     wx.cloud.init({
-      env: "cloud-1-1gb5xxxp9f134365"
+      env: "xxxxxxxx"
     })
 
     var that = this;
